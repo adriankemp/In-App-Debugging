@@ -15,6 +15,8 @@
 		75B22B3716E07970005A6641 /* DebugConsoleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B22B3116E07970005A6641 /* DebugConsoleViewController.m */; };
 		75B22B3816E07970005A6641 /* DebugWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 75B22B3216E07970005A6641 /* DebugWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		75B22B3916E07970005A6641 /* DebugWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B22B3316E07970005A6641 /* DebugWindow.m */; };
+		75B22B4116E07FD1005A6641 /* ui-additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 75B22B3F16E07FD1005A6641 /* ui-additions.h */; };
+		75B22B4216E07FD1005A6641 /* ui-additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B22B4016E07FD1005A6641 /* ui-additions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +42,9 @@
 		75B22B3116E07970005A6641 /* DebugConsoleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugConsoleViewController.m; sourceTree = "<group>"; };
 		75B22B3216E07970005A6641 /* DebugWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugWindow.h; sourceTree = "<group>"; };
 		75B22B3316E07970005A6641 /* DebugWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugWindow.m; sourceTree = "<group>"; };
+		75B22B3E16E07FAA005A6641 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		75B22B3F16E07FD1005A6641 /* ui-additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ui-additions.h"; sourceTree = "<group>"; };
+		75B22B4016E07FD1005A6641 /* ui-additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ui-additions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +78,7 @@
 		75B22B1C16E077CF005A6641 /* debug-logging-ios */ = {
 			isa = PBXGroup;
 			children = (
+				75B22B3C16E07FAA005A6641 /* external */,
 				75B22B2E16E07970005A6641 /* DebugConsoleView.h */,
 				75B22B2F16E07970005A6641 /* DebugConsoleView.m */,
 				75B22B3016E07970005A6641 /* DebugConsoleViewController.h */,
@@ -83,6 +89,24 @@
 				75B22B2A16E078F3005A6641 /* debug-logging-ios.h */,
 			);
 			path = "debug-logging-ios";
+			sourceTree = "<group>";
+		};
+		75B22B3C16E07FAA005A6641 /* external */ = {
+			isa = PBXGroup;
+			children = (
+				75B22B3D16E07FAA005A6641 /* ui-additions */,
+			);
+			path = external;
+			sourceTree = "<group>";
+		};
+		75B22B3D16E07FAA005A6641 /* ui-additions */ = {
+			isa = PBXGroup;
+			children = (
+				75B22B3E16E07FAA005A6641 /* README.md */,
+				75B22B3F16E07FD1005A6641 /* ui-additions.h */,
+				75B22B4016E07FD1005A6641 /* ui-additions.m */,
+			);
+			path = "ui-additions";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +121,7 @@
 				75B22B3616E07970005A6641 /* DebugConsoleViewController.h in Headers */,
 				75B22B3816E07970005A6641 /* DebugWindow.h in Headers */,
 				75B22B1E16E077CF005A6641 /* debug_logging_ios_Prefix.pch in Headers */,
+				75B22B4116E07FD1005A6641 /* ui-additions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +212,7 @@
 				75B22B3516E07970005A6641 /* DebugConsoleView.m in Sources */,
 				75B22B3716E07970005A6641 /* DebugConsoleViewController.m in Sources */,
 				75B22B3916E07970005A6641 /* DebugWindow.m in Sources */,
+				75B22B4216E07FD1005A6641 /* ui-additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

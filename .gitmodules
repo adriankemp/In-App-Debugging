@@ -1,0 +1,3 @@
+[submodule "debug-logging-ios/external/ui-additions"]
+	path = debug-logging-ios/external/ui-additions
+	url = git@github.com:adrian-kemp/ui-additions.git
